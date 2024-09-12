@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotary Club of Vellore Palar City - Donate</title>
+    <link rel="stylesheet" href="styles donate.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Rotary Club of Vellore Palar City</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="donate.html">Donate</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="donate">
+        <div class="container">
+            <h2>Donate</h2>
+            <p>Your contributions help us make a difference. Please consider supporting our projects.</p>
+            <form action="submit_donation.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="amount">Donation Amount:</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <button type="submit">Donate</button>
+            </form>
+        </div>
+    </section>
+
+
+    <section id="donate">
+        <div class="container">
+            <h1>Support Our Cause</h1>
+            <p>Your generous donation helps us make a difference in our community. Choose how you would like to contribute:</p>
+            
+            <div class="donation-options">
+                <div class="donation-option">
+                    <h2>One-Time Donation</h2>
+                    <form id="one-time-donation-form">
+                        <div class="form-group">
+                            <label for="amount">Amount:</label>
+                            <input type="number" id="amount" name="amount" required min="1">
+                        </div>
+                        <button type="submit" class="submit-button">Donate Now</button>
+                    </form>
+                </div>
+                
+                <div class="donation-option">
+                    <h2>Monthly Subscription</h2>
+                    <form id="monthly-donation-form">
+                        <div class="form-group">
+                            <label for="monthly-amount">Amount per Month:</label>
+                            <input type="number" id="monthly-amount" name="monthly-amount" required min="1">
+                        </div>
+                        <button type="submit" class="submit-button">Subscribe</button>
+                    </form>
+                </div>
+                
+                <div class="donation-option">
+                    <h2>Other Ways to Donate</h2>
+                    <p>If you prefer to donate in other ways, please contact us directly at <a href="mailto:donate@rotaryvellorepalar.org">donate@rotaryvellorepalar.org</a> or call us at +91 123 456 7890.</p>
+                </div>
+            </div>
+
+            <div class="impact-section">
+                <h2>How Your Donation Helps</h2>
+                <p>Learn more about how your contribution is making a difference in our community:</p>
+                <ul>
+                    <li>Support community projects and initiatives</li>
+                    <li>Provide scholarships and educational support</li>
+                    <li>Fund essential services and outreach programs</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Rotary Club of Vellore Palarcity. All rights reserved.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=61564668922363" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
